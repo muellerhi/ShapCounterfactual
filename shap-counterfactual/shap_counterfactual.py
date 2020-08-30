@@ -44,7 +44,7 @@ class ShapCounterfactual(object):
             such as the words themselves in case of document classification or the names
             of visited URLs.
             (It can also be the indices if there are no interpretable feature names.)
-            
+
             time_maximum: [int] maximum time allowed to generate explanations,
             expressed in minutes. Default is set to 2 minutes (120 seconds).
         """
