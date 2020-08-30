@@ -2,13 +2,12 @@
 Function for explaining classified instances using evidence counterfactuals.
 """
 
-"""
-Import libraries 
-"""
-import shap
 import time
+
 import numpy as np
+import shap
 from scipy import sparse
+
 
 class ShapCounterfactual(object):
     """Class for generating evidence counterfactuals for classifiers on behavioral/text data"""
